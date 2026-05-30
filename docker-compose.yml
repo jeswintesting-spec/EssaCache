@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  essacache:
+    build: .
+    container_name: essacache-server
+    ports:
+      - "6379:6379"
+      - "8000:8000"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
+    command: >
+      python3 -m essacache
+      --host 0.0.0.0
+      --port 6379
+      --capacity 10000
+      --aof /data/essacache.aof
+      --rdb /data/essacache.rdb
