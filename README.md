@@ -2,6 +2,10 @@
 
 A blazing-fast, in-memory data structure store, serving as a Redis clone implemented purely in Python. While traditional databases write to the hard drive, EssaCache lives entirely in RAM for lightning-fast performance, offering custom memory management, eviction algorithms, and persistent backups.
 
+## 📚 Documentation
+- **[User Manual](USER_MANUAL.md)**: Full command reference, CLI flags, data structures, and persistence architecture.
+- **[Ecosystem Integration Guide](INTEGRATION_GUIDE.md)**: How to connect EssaDB, EssaCache, and EssaConnect together using Cache-Aside patterns and Pub/Sub invalidation.
+
 ## Key Features
 
 1. **LRU Eviction (Least Recently Used)**: 
