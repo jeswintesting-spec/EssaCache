@@ -1,5 +1,9 @@
 # EssaCache 🚀
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+
 A blazing-fast, in-memory data structure store, serving as a Redis clone implemented purely in Python. While traditional databases write to the hard drive, EssaCache lives entirely in RAM for lightning-fast performance, offering custom memory management, eviction algorithms, and persistent backups.
 
 ## 📚 Documentation
